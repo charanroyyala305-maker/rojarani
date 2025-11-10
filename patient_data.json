@@ -1,0 +1,537 @@
+{
+  "Fever": {
+    "medicines": ["Paracetamol", "Dolo 650"],
+    "dosage": "Adults: 500–650 mg every 6 hours as needed. Children: 10–15 mg/kg every 6 hours.",
+    "storage": "Store below 25°C, away from moisture.",
+    "instructions": "Drink plenty of water, take rest, avoid caffeine and alcohol."
+  },
+   "Cold": {
+    "medicines": ["Cetirizine", "Paracetamol", "Steam Inhalation"],
+    "dosage": "Cetirizine 10 mg once daily. Paracetamol 500 mg every 6 hours if fever or headache.",
+    "storage": "Keep below 30°C, away from sunlight.",
+    "instructions": "Rest well, inhale steam twice daily, drink warm fluids, avoid cold drinks."
+  },
+  "Cough": {
+    "medicines": ["Cough Syrup (Dextromethorphan)", "Warm water", "Honey"],
+    "dosage": "10 ml syrup every 6 hours as needed.",
+    "storage": "Store below 25°C.",
+    "instructions": "Avoid dusty air, drink warm water, avoid cold drinks."
+  },
+  "Body Pain": {
+    "medicines": ["Paracetamol", "Ibuprofen"],
+    "dosage": "Paracetamol 500 mg every 6 hours or Ibuprofen 400 mg every 8 hours if needed.",
+    "storage": "Store below 30°C.",
+    "instructions": "Rest, do light stretching, stay hydrated."
+  },
+  "Headache": {
+    "medicines": ["Paracetamol", "Ibuprofen"],
+    "dosage": "Paracetamol 500 mg every 6 hours or Ibuprofen 400 mg every 8 hours.",
+    "storage": "Keep below 30°C.",
+    "instructions": "Rest in a dark room, drink water, avoid screen time and stress."
+  },
+  "Throat Pain": {
+    "medicines": ["Warm salt water gargle", "Paracetamol", "Lozenges"],
+    "dosage": "Gargle twice a day, Paracetamol 500 mg if painful.",
+    "storage": "Room temperature.",
+    "instructions": "Avoid cold food, drink warm water, rest voice."
+  },
+  "Diarrhea": {
+    "medicines": ["ORS Solution", "Zinc Tablets"],
+    "dosage": "ORS after each loose stool, Zinc 20 mg daily for 10 days.",
+    "storage": "Cool, dry place.",
+    "instructions": "Stay hydrated, avoid spicy and oily food."
+  },
+  "Vomiting": {
+    "medicines": ["Ondansetron", "ORS"],
+    "dosage": "Ondansetron 4 mg every 8 hours if needed.",
+    "storage": "Below 25°C.",
+    "instructions": "Sip fluids slowly, avoid solid foods until vomiting stops."
+  },
+  "Stomach Pain": {
+    "medicines": ["Antacid", "Paracetamol"],
+    "dosage": "Antacid 1 tablet after food twice a day.",
+    "storage": "Store below 30°C.",
+    "instructions": "Eat light meals, avoid spicy food."
+  },
+  "Constipation": {
+    "medicines": ["Lactulose Syrup", "High Fiber Diet"],
+    "dosage": "15–30 ml at bedtime as needed.",
+    "storage": "Room temperature.",
+    "instructions": "Drink 2–3 liters of water daily, eat fruits and vegetables."
+  },
+  "Acidity": {
+    "medicines": ["Pantoprazole", "Antacid Syrup"],
+    "dosage": "Pantoprazole 40 mg once daily before breakfast.",
+    "storage": "Store below 30°C.",
+    "instructions": "Avoid spicy food, don’t lie down after meals."
+  },
+  "Migraine": {
+    "medicines": ["Paracetamol", "Sumatriptan"],
+    "dosage": "Sumatriptan 50 mg at the start of headache.",
+    "storage": "Below 30°C.",
+    "instructions": "Avoid triggers like stress, bright light, caffeine."
+  },
+  "Allergy": {
+    "medicines": ["Cetirizine", "Loratadine"],
+    "dosage": "Cetirizine 10 mg once daily.",
+    "storage": "Below 30°C.",
+    "instructions": "Avoid dust, pollen, and strong smells."
+  },
+  "Asthma": {
+    "medicines": ["Salbutamol Inhaler", "Steroid Inhaler"],
+    "dosage": "2 puffs as needed or as prescribed.",
+    "storage": "Store at room temperature.",
+    "instructions": "Avoid smoke, allergens; use inhaler correctly."
+  },
+  "Diabetes": {
+    "medicines": ["Metformin"],
+    "dosage": "500 mg twice daily after meals.",
+    "storage": "Store below 30°C.",
+    "instructions": "Check blood sugar regularly, avoid sweets."
+  },
+  "Hypertension": {
+    "medicines": ["Amlodipine", "Losartan"],
+    "dosage": "Once daily in the morning.",
+    "storage": "Store in a cool place.",
+    "instructions": "Reduce salt intake, exercise regularly."
+  },
+  "Thyroid Disorder": {
+    "medicines": ["Levothyroxine"],
+    "dosage": "Take once daily on an empty stomach.",
+    "storage": "Keep below 25°C.",
+    "instructions": "Take before breakfast, regular blood tests advised."
+  },
+  "Anemia": {
+    "medicines": ["Iron Supplements", "Folic Acid"],
+    "dosage": "1 tablet daily after meals.",
+    "storage": "Room temperature.",
+    "instructions": "Eat leafy greens, beetroot, avoid tea/coffee after meals."
+  },
+  "Back Pain": {
+    "medicines": ["Ibuprofen", "Muscle Relaxant"],
+    "dosage": "Ibuprofen 400 mg every 8 hours.",
+    "storage": "Below 30°C.",
+    "instructions": "Avoid lifting heavy objects, do gentle stretching."
+  },
+  "UTI": {
+    "medicines": ["Cranberry Juice", "Antibiotic (if prescribed)"],
+    "dosage": "As per doctor’s advice.",
+    "storage": "Below 30°C.",
+    "instructions": "Drink plenty of water, avoid holding urine."
+  },
+  "Arthritis": {
+    "medicines": ["Paracetamol", "Ibuprofen"],
+    "dosage": "500 mg every 6 hours as needed.",
+    "storage": "Below 25°C.",
+    "instructions": "Do light exercise, avoid cold weather exposure."
+  },
+  "Sinusitis": {
+    "medicines": ["Steam Inhalation", "Paracetamol"],
+    "dosage": "Steam twice a day.",
+    "storage": "Room temperature.",
+    "instructions": "Inhale steam, avoid dust and cold drinks."
+  },
+  "Sore Throat": {
+    "medicines": ["Warm Salt Water Gargle", "Paracetamol"],
+    "dosage": "Gargle 2–3 times a day.",
+    "storage": "Room temperature.",
+    "instructions": "Avoid spicy foods, stay hydrated."
+  },
+  "Skin Allergy": {
+    "medicines": ["Cetirizine", "Calamine Lotion"],
+    "dosage": "Cetirizine 10 mg daily, apply lotion twice daily.",
+    "storage": "Below 25°C.",
+    "instructions": "Avoid scratching, keep area clean."
+  },
+  "Acne": {
+    "medicines": ["Benzoyl Peroxide", "Clindamycin Gel"],
+    "dosage": "Apply thin layer once daily.",
+    "storage": "Store below 25°C.",
+    "instructions": "Wash face gently, avoid oily foods."
+  },
+  "COVID-19": {
+    "medicines": ["Paracetamol", "Vitamin C", "Zinc"],
+    "dosage": "As per symptoms.",
+    "storage": "Room temperature.",
+    "instructions": "Isolate, wear mask, rest, and hydrate well."
+  },
+  "Malaria": {
+    "medicines": ["Chloroquine", "Artemether-Lumefantrine"],
+    "dosage": "As prescribed.",
+    "storage": "Below 25°C.",
+    "instructions": "Avoid mosquito bites, sleep under a net."
+  },
+  "Dengue": {
+    "medicines": ["Paracetamol", "ORS"],
+    "dosage": "Paracetamol 500 mg every 6 hours.",
+    "storage": "Below 25°C.",
+    "instructions": "Avoid aspirin, stay hydrated, monitor platelets."
+  },
+  "Typhoid": {
+    "medicines": ["Azithromycin", "Cefixime"],
+    "dosage": "As prescribed by doctor.",
+    "storage": "Cool place.",
+    "instructions": "Eat light food, complete antibiotic course."
+  },
+  "Chickenpox": {
+    "medicines": ["Calamine Lotion", "Paracetamol"],
+    "dosage": "Apply lotion twice daily, Paracetamol for fever.",
+    "storage": "Below 25°C.",
+    "instructions": "Avoid scratching, rest and stay isolated."
+  },
+  "Heart Attack": {
+    "medicines": ["Aspirin", "Nitroglycerin", "Clopidogrel"],
+    "dosage": "Aspirin 325 mg once, Nitroglycerin 0.4 mg under tongue every 5 min (max 3 doses).",
+    "storage": "Store below 25°C, away from sunlight.",
+    "instructions": "🚨 Emergency: Go to hospital immediately. Rest and avoid exertion."
+  },
+  "Stroke": {
+    "medicines": ["Aspirin", "Clopidogrel"],
+    "dosage": "As prescribed by doctor.",
+    "storage": "Room temperature.",
+    "instructions": "🚨 Emergency: Go to hospital immediately. Avoid sudden movement."
+  },
+  "Heart Failure": {
+    "medicines": ["Furosemide", "Enalapril", "Carvedilol"],
+    "dosage": "As prescribed by cardiologist.",
+    "storage": "Store below 30°C.",
+    "instructions": "Low-salt diet, monitor weight, avoid alcohol and smoking."
+  },
+  "Fatty Liver": {
+    "medicines": ["Vitamin E", "Metformin (if diabetic)"],
+    "dosage": "Vitamin E 400 mg daily.",
+    "storage": "Room temperature.",
+    "instructions": "Avoid alcohol, eat balanced diet, exercise regularly."
+  },
+  "Jaundice": {
+    "medicines": ["ORS", "Liv.52 syrup (supportive)"],
+    "dosage": "As directed by doctor.",
+    "storage": "Store below 25°C.",
+    "instructions": "Rest, avoid fatty foods, drink boiled water."
+  },
+  "Kidney Stone": {
+    "medicines": ["Tamsulosin", "Painkiller (Diclofenac)"],
+    "dosage": "Tamsulosin 0.4 mg daily.",
+    "storage": "Below 25°C.",
+    "instructions": "Drink 3–4 liters of water daily, avoid salt and red meat."
+  },
+  "Urinary Infection": {
+    "medicines": ["Cefixime", "Cranberry Juice", "ORS"],
+    "dosage": "Cefixime 200 mg twice daily for 5 days.",
+    "storage": "Cool, dry place.",
+    "instructions": "Drink water frequently, avoid holding urine."
+  },
+  "Liver Cirrhosis": {
+    "medicines": ["Lactulose", "Vitamin Supplements"],
+    "dosage": "15–30 ml Lactulose twice daily.",
+    "storage": "Below 30°C.",
+    "instructions": "Avoid alcohol, reduce salt, regular checkups needed."
+  },
+  "Depression": {
+    "medicines": ["Fluoxetine", "Sertraline"],
+    "dosage": "Fluoxetine 20 mg once daily.",
+    "storage": "Store below 30°C.",
+    "instructions": "Seek counseling, regular sleep, exercise daily."
+  },
+  "Anxiety": {
+    "medicines": ["Clonazepam (short-term)", "SSRI Antidepressant"],
+    "dosage": "As prescribed by psychiatrist.",
+    "storage": "Below 30°C.",
+    "instructions": "Avoid caffeine, deep breathing, talk to counselor."
+  },
+  "Insomnia": {
+    "medicines": ["Melatonin", "Zolpidem (short-term)"],
+    "dosage": "Melatonin 3–5 mg at bedtime.",
+    "storage": "Store below 25°C.",
+    "instructions": "Avoid screens before bed, maintain sleep schedule."
+  },
+  "PCOS": {
+    "medicines": ["Metformin", "Oral Contraceptive Pills"],
+    "dosage": "Metformin 500 mg twice daily.",
+    "storage": "Below 30°C.",
+    "instructions": "Exercise regularly, eat low-carb diet."
+  },
+  "Menstrual Cramps": {
+    "medicines": ["Mefenamic Acid", "Paracetamol"],
+    "dosage": "Mefenamic Acid 500 mg every 8 hours as needed.",
+    "storage": "Store below 25°C.",
+    "instructions": "Use hot water bag, rest, stay hydrated."
+  },
+  "Pregnancy Nausea": {
+    "medicines": ["Doxylamine", "Vitamin B6"],
+    "dosage": "Doxylamine 10 mg with Vitamin B6 twice daily.",
+    "storage": "Below 30°C.",
+    "instructions": "Eat small frequent meals, avoid spicy food."
+  },
+  "Menopause": {
+    "medicines": ["Calcium", "Vitamin D", "Hormone Therapy (if prescribed)"],
+    "dosage": "Calcium 500 mg daily.",
+    "storage": "Cool, dry place.",
+    "instructions": "Exercise, balanced diet, consult doctor for therapy."
+  },
+  "Pneumonia": {
+    "medicines": ["Azithromycin", "Paracetamol"],
+    "dosage": "Azithromycin 500 mg daily for 3 days.",
+    "storage": "Below 30°C.",
+    "instructions": "Complete antibiotic course, rest, drink fluids."
+  },
+  "Tuberculosis": {
+    "medicines": ["Rifampicin", "Isoniazid", "Pyrazinamide", "Ethambutol"],
+    "dosage": "Combination daily for 6 months.",
+    "storage": "Below 30°C.",
+    "instructions": "Take full course, do not skip doses, regular tests required."
+  },
+  "Bronchitis": {
+    "medicines": ["Amoxicillin", "Cough Syrup"],
+    "dosage": "Amoxicillin 500 mg every 8 hours for 5 days.",
+    "storage": "Room temperature.",
+    "instructions": "Avoid smoking, rest, stay warm."
+  },
+  "Obesity": {
+    "medicines": ["Orlistat"],
+    "dosage": "120 mg with main meals.",
+    "storage": "Below 30°C.",
+    "instructions": "Exercise daily, avoid sugary foods."
+  },
+  "High Cholesterol": {
+    "medicines": ["Atorvastatin"],
+    "dosage": "10–20 mg once daily at night.",
+    "storage": "Cool, dry place.",
+    "instructions": "Avoid fried foods, eat fiber-rich meals."
+  },
+  "Gout": {
+    "medicines": ["Allopurinol", "Colchicine"],
+    "dosage": "Allopurinol 100 mg daily.",
+    "storage": "Below 30°C.",
+    "instructions": "Avoid red meat, drink plenty of water."
+  },
+  "Arthritis (Rheumatoid)": {
+    "medicines": ["Methotrexate", "NSAIDs"],
+    "dosage": "Methotrexate once weekly.",
+    "storage": "Cool, dry place.",
+    "instructions": "Take folic acid, avoid alcohol, regular monitoring."
+  },
+  "Measles": {
+    "medicines": ["Vitamin A", "Paracetamol"],
+    "dosage": "Vitamin A as advised by doctor, Paracetamol 500 mg every 6 hours for fever.",
+    "storage": "Store below 30 °C.",
+    "instructions": "Isolate patient, rest, adequate fluids, treat fever."
+  },
+  "Mumps": {
+    "medicines": ["Paracetamol", "Ibuprofen"],
+    "dosage": "Paracetamol 500 mg every 6 hours for pain or fever.",
+    "storage": "Below 30 °C.",
+    "instructions": "Rest, soft diet, warm compress for swelling."
+  },
+  "Dengue Fever": {
+    "medicines": ["Paracetamol", "ORS"],
+    "dosage": "Paracetamol 500 mg every 6 hours for fever.",
+    "storage": "Room temperature.",
+    "instructions": "Drink fluids, avoid aspirin or ibuprofen, rest completely."
+  },
+  "Ringworm": {
+    "medicines": ["Clotrimazole Cream", "Fluconazole"],
+    "dosage": "Apply Clotrimazole twice daily for 2 weeks.",
+    "storage": "Below 25 °C.",
+    "instructions": "Keep area dry, avoid sharing towels."
+  },
+  "Eczema": {
+    "medicines": ["Moisturizing Cream", "Hydrocortisone 1% cream"],
+    "dosage": "Apply thin layer twice daily.",
+    "storage": "Room temperature.",
+    "instructions": "Avoid soap, use mild cleanser, keep skin hydrated."
+  },
+  "Psoriasis": {
+    "medicines": ["Coal Tar Cream", "Vitamin D Ointment"],
+    "dosage": "Apply thin layer twice daily.",
+    "storage": "Room temperature.",
+    "instructions": "Avoid stress, moisturize, sunlight in moderation."
+  },
+  "Boils": {
+    "medicines": ["Mupirocin Ointment", "Painkiller (Paracetamol)"],
+    "dosage": "Apply Mupirocin twice daily.",
+    "storage": "Below 30 °C.",
+    "instructions": "Keep area clean, apply warm compress."
+  },
+  "Pneumonia (Child)": {
+    "medicines": ["Amoxicillin Syrup", "Paracetamol Syrup"],
+    "dosage": "Amoxicillin 40 mg/kg/day divided doses for 7 days.",
+    "storage": "Refrigerate syrup if required.",
+    "instructions": "Complete antibiotic course, rest, fluids."
+  },
+  "Diabetes (Elderly)": {
+    "medicines": ["Metformin", "Insulin (if required)"],
+    "dosage": "Metformin 500 mg twice daily.",
+    "storage": "Insulin – refrigerated.",
+    "instructions": "Monitor blood sugar, balanced diet, walk daily."
+  },
+  "Hypertension (Elderly)": {
+    "medicines": ["Amlodipine", "Losartan"],
+    "dosage": "Amlodipine 5 mg once daily.",
+    "storage": "Below 30 °C.",
+    "instructions": "Low-salt diet, regular exercise, avoid stress."
+  },
+  "Osteoporosis": {
+    "medicines": ["Calcium", "Vitamin D", "Alendronate"],
+    "dosage": "Calcium 500 mg daily, Vitamin D 1000 IU daily.",
+    "storage": "Cool, dry place.",
+    "instructions": "Weight-bearing exercise, avoid smoking."
+  },
+  "Common Cold (Child)": {
+    "medicines": ["Paracetamol Syrup", "Nasal Saline Drops"],
+    "dosage": "Paracetamol 10–15 mg/kg every 6 hours as needed.",
+    "storage": "Below 30 °C.",
+    "instructions": "Hydrate well, rest, avoid cold exposure."
+  },
+  "Dehydration": {
+    "medicines": ["ORS Solution", "Zinc Tablets"],
+    "dosage": "ORS 200 ml after each loose stool, Zinc 20 mg daily for 14 days.",
+    "storage": "Cool, dry place.",
+    "instructions": "Continue feeding, drink fluids, rest."
+  },
+  "Food Poisoning": {
+    "medicines": ["ORS", "Ranitidine", "Probiotic"],
+    "dosage": "ORS frequently, Ranitidine 150 mg twice daily.",
+    "storage": "Room temperature.",
+    "instructions": "Avoid outside food, drink boiled water."
+  },
+  "Heat Stroke": {
+    "medicines": ["Paracetamol", "ORS"],
+    "dosage": "Paracetamol 500 mg every 6 hours for fever.",
+    "storage": "Below 25 °C.",
+    "instructions": "Move to cool place, hydrate, rest."
+  },
+  "Hypothermia": {
+    "medicines": ["Warm Blankets", "Hot Drinks"],
+    "dosage": "N/A",
+    "storage": "N/A",
+    "instructions": "Gradually warm the person, avoid direct heat."
+  },
+  "Decompression Sickness": {
+    "medicines": ["Oxygen Therapy", "Pain Relievers"],
+    "dosage": "As per medical advice.",
+    "storage": "N/A",
+    "instructions": "Seek immediate medical attention, avoid further diving."
+  },
+  "Altitude Sickness": {
+    "medicines": ["Acetazolamide", "Ibuprofen"],
+    "dosage": "Acetazolamide 125 mg twice daily.",
+    "storage": "Below 30 °C.",
+    "instructions": "Ascend slowly, stay hydrated, avoid alcohol."
+  },
+  "Motion Sickness": {
+    "medicines": ["Dimenhydrinate", "Ginger Tablets"],
+    "dosage": "Dimenhydrinate 50 mg every 4–6 hours as needed.",
+    "storage": "Below 30 °C.",
+    "instructions": "Sit facing forward, avoid heavy meals before travel."
+  },
+  "Jet Lag": {
+    "medicines": ["Melatonin", "Caffeine (in moderation)"],
+    "dosage": "Melatonin 3–5 mg at bedtime for a few days.",
+    "storage": "Below 25 °C.",
+    "instructions": "Adjust sleep schedule, get sunlight exposure."
+  },
+  "Sunburn": {
+    "medicines": ["Aloe Vera Gel", "Ibuprofen"],
+    "dosage": "Apply Aloe Vera as needed, Ibuprofen 400 mg every 8 hours for pain.",
+    "storage": "Room temperature.",
+    "instructions": "Avoid further sun exposure, stay hydrated."
+  },
+  "Insect Bite": {
+    "medicines": ["Antihistamine Cream", "Painkiller (Paracetamol)"],
+    "dosage": "Apply cream twice daily, Paracetamol 500 mg if needed.",
+    "storage": "Below 25 °C.",
+    "instructions": "Clean area, avoid scratching."
+  },
+  "Dog Bite": {
+    "medicines": ["Wound Cleaning Solution", "Tetanus Vaccine", "Rabies Vaccine"],
+    "dosage": "As per medical advice.",
+    "storage": "N/A",
+    "instructions": "Clean wound immediately, seek medical attention for vaccines."
+  },
+  "Snake Bite": {
+    "medicines": ["Antivenom", "Pain Relievers"],
+    "dosage": "As per medical advice.",
+    "storage": "N/A",
+    "instructions": "Keep the person calm, immobilize the bitten limb, seek emergency medical help."
+  },
+  "Scorpion Sting": {
+    "medicines": ["Pain Relievers", "Antivenom (if severe)"],
+    "dosage": "As per medical advice.",
+    "storage": "N/A",
+    "instructions": "Clean the sting area, apply a cold pack, seek medical attention if symptoms worsen."
+  },
+  "Jellyfish Sting": {
+    "medicines": ["Vinegar", "Pain Relievers"],
+    "dosage": "As needed for pain relief.",
+    "storage": "N/A",
+    "instructions": "Rinse with vinegar, avoid fresh water, remove tentacles carefully."
+  },
+  "Frostbite": {
+    "medicines": ["Warm Water Soak", "Pain Relievers"],
+    "dosage": "As needed for pain relief.",
+    "storage": "N/A",
+    "instructions": "Soak in warm water (not hot), avoid rubbing the area, seek medical attention."
+  },
+  "Cuts and Wounds": {
+    "medicines": ["Antiseptic Solution", "Sterile Bandages", "Painkillers (Paracetamol)"],
+    "dosage": "Apply antiseptic as needed, change bandages daily, Paracetamol 500 mg if needed.",
+    "storage": "Room temperature.",
+    "instructions": "Keep wound clean and dry, change dressings regularly."
+  },
+  "Burns": {
+    "medicines": ["Aloe Vera Gel", "Painkillers (Ibuprofen)"],
+    "dosage": "Apply Aloe Vera as needed, Ibuprofen 400 mg every 8 hours for pain.",
+    "storage": "Room temperature.",
+    "instructions": "Cool the burn with running water, avoid ice, keep area clean."
+  },
+  "Sprains and Strains": {
+    "medicines": ["Painkillers (Ibuprofen)", "Cold Compress"],
+    "dosage": "Ibuprofen 400 mg every 8 hours for pain.",
+    "storage": "Below 30 °C.",
+    "instructions": "Rest the injured area, apply cold compress, elevate the limb."
+  },
+  "Fractures": {
+    "medicines": ["Painkillers (Paracetamol)", "Immobilization Devices"],
+    "dosage": "Paracetamol 500 mg every 6 hours for pain.",
+    "storage": "Room temperature.",
+    "instructions": "Immobilize the fracture, seek immediate medical attention."
+  },
+  "Dislocations": {
+    "medicines": ["Painkillers (Ibuprofen)", "Immobilization Devices"],
+    "dosage": "Ibuprofen 400 mg every 8 hours for pain.",
+    "storage": "Below 30 °C.",
+    "instructions": "Immobilize the joint, seek immediate medical attention."
+  },
+  "Choking": {
+    "medicines": ["Heimlich Maneuver"],
+    "dosage": "N/A",
+    "storage": "N/A",
+    "instructions": "Perform Heimlich maneuver immediately, call emergency services if needed."
+  },
+  "Heat Exhaustion": {
+    "medicines": ["ORS", "Pain Relievers (Paracetamol)"],
+    "dosage": "ORS frequently, Paracetamol 500 mg every 6 hours for headache.",
+    "storage": "Room temperature.",
+    "instructions": "Move to a cool place, hydrate, rest."
+  },
+  "Hypoglycemia": {
+    "medicines": ["Glucose Tablets", "Juice or Sugary Drink"],
+    "dosage": "15–20 grams of glucose.",
+    "storage": "Room temperature.",
+    "instructions": "Consume glucose immediately, recheck blood sugar after 15 minutes."
+  },
+  "Chest Pain": {
+    "medicines": ["Aspirin", "Nitroglycerin", "Pantoprazole"],
+    "dosage": {
+      "child": "Consult a pediatrician immediately — chest pain in children must be evaluated by a doctor.",
+      "adult": "Aspirin 300 mg chewable (only if not allergic and pain is suspected to be cardiac) + Nitroglycerin 0.4 mg sublingual tablet if prescribed; Pantoprazole 40 mg once daily if due to acidity.",
+      "elderly": "Aspirin 75–150 mg daily (if advised by doctor); Nitroglycerin 0.4 mg sublingual if chest pain and known heart disease; Pantoprazole 40 mg once daily before breakfast."
+    },
+    "advice": [
+      "If chest pain is severe, radiates to arm/jaw/back, or causes sweating, shortness of breath, or nausea — go to hospital immediately.",
+      "Avoid heavy meals and stress if pain is due to acidity.",
+      "Don’t ignore chest pain; always rule out heart-related causes."
+    ]
+  }
+}
