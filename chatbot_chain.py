@@ -1,68 +1,46 @@
 import json
-import time
-from ollama import Client
+import streamlit as st
+from groq import Groq
 
-MODEL = "tinydolphin"
-client = Client()
+client = Groq(api_key=st.secrets["GROQ_API_KEY"])
 
-# 🔹 Load patient data
-with open("patient_data.json", "r") as file:
-    patient_data = json.load(file)
+# ----------------- MODEL SELECTION -----------------
+MODEL = "llama-3.1-8b-instant"
+# ---------------------------------------------------
 
+# Load your diseases and medicine info
+with open("patient_instructions.json", "r", encoding="utf-8") as f:
+    DATA = json.load(f)
 
-def get_condition(user_input):
-    """Check if user input matches any known condition"""
-    for condition, info in patient_data.items():
-        if condition.lower() in user_input.lower():
-            return {
-                "condition": condition,
-                "medicines": info.get("medicines", []),
-                "dosage": info.get("dosage", ""),
-                "storage": info.get("storage", ""),
-                "advice": info.get("advice", "")
-            }
-    return None
+# Emergency keywords (optional)
+EMERGENCY_KEYWORDS = {"chest pain", "shortness of breath", "severe bleeding", "loss of consciousness"}
 
 
-def generate_ai_response(user_input):
-    """Get an AI-generated health explanation and 3 short care tips"""
-    start_time = time.time()
-    prompt = f"""
-    You are a friendly medical assistant.
-    The user said: "{user_input}".
-    Provide:
-    1. A short explanation of the possible illness.
-    2. 3 simple care or prevention tips in bullet points.
-    """
+def get_instructions(symptom_text: str) -> str:
+    text = symptom_text.strip().lower()
 
-    try:
-        response = client.chat(
-            model=MODEL,
-            messages=[
-                {"role": "system", "content": "You are a trusted AI health assistant."},
-                {"role": "user", "content": prompt}
-            ]
-        )
+    # emergency detection
+    if any(word in text for word in EMERGENCY_KEYWORDS):
+        return "🚨 Emergency: Please seek medical help immediately."
 
-        end_time = time.time()
-        elapsed = round(end_time - start_time, 2)
+    # match disease
+    for disease, info in DATA.items():
+        if disease.lower() in text:
+            return (
+                f"🩺 Disease: {disease}\n"
+                f"💊 Medicines: {', '.join(info['medicines'])}\n"
+                f"💉 Dosage: {info['dosage']}\n"
+                f"📦 Storage: {info['storage']}\n"
+                f"📋 Instructions: {info['instructions']}"
+            )
 
-        # ✅ Safe content extraction
-        if isinstance(response, dict):
-            if "message" in response and isinstance(response["message"], dict):
-                content = response["message"].get("content", "")
-            elif "messages" in response:
-                content = response["messages"][-1].get("content", "")
-            else:
-                content = str(response)
-        else:
-            content = str(response)
+    # fallback: use LLM
+    response = client.chat.completions.create(
+        model=MODEL,
+        messages=[
+            {"role": "system", "content": "You are a helpful medical assistant."},
+            {"role": "user", "content": text}
+        ]
+    )
 
-        return content, elapsed
-
-    except Exception as e:
-        return f"⚠ Error generating response: {e}", 0
-
-
-if __name__ == "_main_":
-    print(get_condition("I have fever"))
+    return response.choices[0].message.content.strip()
